@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@400;500;700;900&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+.body {
+    
+    padding: 0px;
+    margin: 0px;
+}
+.container {
+    
+    background-color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 40px;
+    flex-direction: row;
+} 
+
+.list-items-left {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 750px;
+    width: 460px;
+    align-items: center;
+    margin-right: 50px;
+    border: 3px dashed rgb(230, 230, 230);
+
+}
+.list-items-right {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 750px;
+    width: 460px;
+    align-items: center;
+    margin-right: 50px;
+    border: 3px dashed rgb(230, 230, 230);
+
+}
+.list-item {
+    height: 80px;
+    width: 400px;
+    padding:10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #4659b6;
+    list-style: none;
+    line-height: 80px;
+    text-align: center;
+    cursor: grab;
+    outline: solid white 3px;
+}
+.list-item:active,
+.list-item:focus {
+    outline: none;
+}
